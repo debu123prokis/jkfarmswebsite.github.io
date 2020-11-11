@@ -1,0 +1,370 @@
+<div class="flexupper-strip">
+			<img class="phone-img" src="images/phone3.png">
+			<div><a href="tel:+919942362009">+91 9942362009</a></div>
+			<div>[Any poultry farm registration sticker]</div>
+			<div><a target="_blank" href="https://wa.me/+919976579977/"><img src="images/whatsapplogo1.png" /></a></div>
+			<ul class="app-logo">
+				<li><img src="images/apple_img.png" /></li>
+				<li><img src="images/android.png" /></li>
+			</ul>
+</div>
+		
+
+
+
+.flexupper-strip>div:nth-child(2) {
+	height:28px;
+	margin-top:9px;
+}
+
+.flexupper-strip>div:nth-child(2) a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.flexupper-strip>div:nth-child(4) img{
+	width: 60px;
+    height: 60px;
+    margin-left:90px;
+    border-radius: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+    background-size:100% 100%;
+}
+
+.flexupper-strip{
+	position:relative;
+	display:flex;
+	padding-top:20px;
+	background-image: linear-gradient(to right,#12222C,#103143,#112C3C,#0F2F40,#0D3243,#10181F);
+	justify-content:flex-start;
+}
+
+.flexupper-strip>div{
+	padding:0px 30px 0px 30px;
+	margin-left:45px;
+	color:white;
+}
+
+.flexupper-strip{
+		display:flex;
+		flex:100%;
+		flex-direction:column;
+}
+
+.flexsite-branding{
+	flex:60%;
+}
+
+.flexsite-branding>div{
+	background-color:;
+	font-weight:bold;
+	float:right;
+	padding:30px 50px 20px 50px;
+	margin:50px 40px 0px 10px;
+	line-height:10px;
+}
+
+.flexsite-branding>div a{
+	text-decoration:none;
+	color:white;
+	font-size:25px;
+}
+
+/*
+.flexsite-branding>div:hover{
+	background-color:orange;
+	
+}*/
+
+	
+	
+	.flexsite-branding{
+		display:flex;
+		flex-direction:column;
+		flex:100%;
+	}
+
+}
+
+<!--		<div class="flexsite-branding">
+				<div><a href="#">Choose Location</a></div>
+				<div><a href="#">Cart</a></div>
+			<div><a href="#">Login</a></div>
+		</div> #flexsite-branding 
+-->	
+
+@media screen and (max-width:569px ) and (min-width:375px ){
+	.header-center-button{
+		bottom: 20px;
+	}
+}
+@media screen and (max-width:376px ) and (min-width:220px ){
+	.header-center-button{
+		bottom: 0px;
+	}
+}
+
+@media screen and (max-width:500px ) and (min-width:220px ){
+	.site-title {
+    	text-align: center;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+	.categories-menu {
+		border: none;
+	}
+	.search-form {
+		border: 1px solid;
+	}
+	.search-box button.search-submit {
+ 
+		border-left: none;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 910px){
+
+	button.product-btn{
+		font-size: 15px;
+		padding: 16px 0; 
+	}
+	.product-cat{
+ 		width: 210PX;
+ 	}
+}
+@media only screen and (max-width: 900px) and (min-width: 768px){
+	button.product-btn{
+ 		font-size: 11px;
+ 	}
+ 	.product-cat{
+		width: 210px;
+	}
+}
+
+@media screen and (max-width:767px) and (min-width:200px){
+	.content-area {
+		
+		padding-left: 1px;
+		padding-right: 1px;
+		
+	}
+	.post {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+	}
+}
+
+@media (max-width: 500px) and (min-width: 300px){
+	h1.entry-title {
+		font-size:47px !important;
+	}
+}
+
+@media screen and (max-width: 469px) and (min-width: 413px){
+	.responsive{
+		padding: 0;
+		margin: 0;
+	}
+	audio{
+		    min-width: 281px !important;
+	}
+	.fb_iframe_widget span{
+		max-width: 380px !important;
+    	width: 280px !important;
+	}
+	.wp-block-embed__wrapper{
+		width: 380px !important;
+	}
+}
+@media screen and (max-width: 412px) and (min-width: 200px){
+	.post {
+
+     padding: none; 
+     border: none; 
+	}
+	.responsive{
+		padding: 0;
+		margin: 0;
+	}
+	audio{
+		    min-width: 281px !important;
+	}
+	.fb_iframe_widget span{
+		max-width: 280px !important;
+    	width: 280px !important;
+	}
+	.wp-block-embed__wrapper{
+		width: 279px !important;
+	}
+}
+
+@media screen and (max-width: 407px) and (min-width: 300px){
+	iframe{
+		min-width: 200px !important;
+		width: 280px !important;
+		text-align: center;
+	}
+	.twitter-widget{
+		width: 200px !important;
+	}
+}
+
+@media only screen and (max-width: 900px) and (min-width: 768px){
+	#slider .carousel-caption {
+    top: 23%;
+    
+	}
+	.carousel-caption {
+    bottom: 40%;
+    left: 55%;
+	}
+
+}
+@media only screen and (max-width: 2000px) and (min-width: 768px){
+	.carousel-caption {
+    bottom: 29%;
+    left: 49%;
+	}
+	
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px){
+	.inner_carousel h1{
+	font-size: 30px !important;
+ 
+   
+}
+.inner_carousel h6 p {
+    font-size: 14px !important;
+ 
+    
+}
+a.carousel-control-prev {
+    z-index: 9999999999999999;
+}
+a.carousel-control-next {
+	z-index: 9999999999999999;
+}
+.carousel-caption {
+
+    left: 0%;
+    bottom: 5px;
+}
+}
+
+@media screen and (min-width: 980px) {
+.woocommerce-shipping-fields h3, .woocommerce-billing-fields h3 {width:100%;}
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+ width: 45%;
+ float: left;
+}
+.woocommerce-checkout-review-order{
+ width: 45%;
+ float: right;
+}
+}
+@media screen and (max-width: 979px) {
+.custom-checkout h3 {
+ width: 100%;
+}
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px){
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="number"],
+	input[type="tel"],
+	input[type="range"],
+	input[type="date"],
+	input[type="month"],
+	input[type="week"],
+	input[type="time"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="color"], 
+	textarea {
+    width: 146px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.main-navigation ul li.menu-item-has-children > a::after {
+	    top: 18px !important;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.main-navigation ul ul li {
+	    background: #f2f2f2;
+	    margin-left: 3em;
+
+	}
+
+/*Header Top*/
+.contain {
+    width:1230px;
+    margin:;
+    padding-left:;
+    padding-right:30px;
+}
+
+@media (min-width: 576px) {
+  .contain {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contain {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contain {
+    max-width: 1316px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contain {
+    max-width: 1316px;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+	.socials{
+		margin-right: auto;
+	}	
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+@media (max-width: 600px) and (min-width: 300px){
+	.main-navigation li {
+		float: none;
+	}
+}
+
+@media screen and (max-width:768px){
+	.site-header{
+		background-color:red;
+	}
+	}
+
+	
